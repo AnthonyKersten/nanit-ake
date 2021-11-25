@@ -15,12 +15,12 @@
   "map": [],
   "options": {
     "NANIT_EMAIL": "NANIT_EMAIL",
-    "Password": "Password",
-    "NanitRMTPIP": "NanitRMTPIP"
+    "NANIT_PASSWORD": "NANIT_PASSWORD",
+    "NANIT_RTMP_ADDR": "NANIT_RTMP_ADDR"
   },
   "schema": {
     "NANIT_EMAIL": "str",
-    "Password": "str",
-    "NanitRMTPIP": "str"
+    "NANIT_PASSWORD": "str",
+    "NANIT_RTMP_ADDR": "str"
   }
 }
