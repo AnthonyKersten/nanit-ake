@@ -14,11 +14,13 @@
   "ports": {},
   "map": [],
   "options": {
-    "ROBOT_IP": "robot_ip",
-    "FIRMWARE": "2"
+    "Email": "Email",
+    "Password": "Password",
+    "NanitRMTPIP": "NanitRMTPIP"
   },
   "schema": {
-    "ROBOT_IP": "str",
-    "FIRMWARE": "int"
+    "Email": "str",
+    "Password": "str",
+    "NanitRMTPIP": "str"
   }
 }
