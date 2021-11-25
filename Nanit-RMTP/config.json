@@ -1,0 +1,24 @@
+﻿{
+  "name": "Nanit Docker Image",
+  "version": "1.0.0",
+  "slug": "nanit",
+  "description": "Build and run roombapw Docker Image in Hass.io",
+  "arch": [
+    "amd64",
+    "armv7"
+  ],
+  "url": "https://github.com/AnthonyKersten/nanit-ake/tree/master/Nanit-RMTP",
+  "startup": "application",
+  "boot": "auto",
+  "legacy": true,
+  "ports": {},
+  "map": [],
+  "options": {
+    "ROBOT_IP": "robot_ip",
+    "FIRMWARE": "2"
+  },
+  "schema": {
+    "ROBOT_IP": "str",
+    "FIRMWARE": "int"
+  }
+}
