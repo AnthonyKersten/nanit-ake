@@ -14,12 +14,12 @@
   "ports": {},
   "map": [],
   "options": {
-    "Email": "Email",
+    "NANIT_EMAIL": "NANIT_EMAIL",
     "Password": "Password",
     "NanitRMTPIP": "NanitRMTPIP"
   },
   "schema": {
-    "Email": "str",
+    "NANIT_EMAIL": "str",
     "Password": "str",
     "NanitRMTPIP": "str"
   }
