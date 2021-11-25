@@ -2,7 +2,7 @@
   "name": "Nanit Docker Image",
   "version": "1.0.0",
   "slug": "nanit",
-  "description": "Build and run roombapw Docker Image in Hass.io",
+  "description": "Build and run Nanit Docker Image in Hass.io",
   "arch": [
     "amd64",
     "armv7"
