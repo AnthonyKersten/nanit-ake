@@ -7,25 +7,7 @@ import (
 	"gitlab.com/adam.stanek/nanit/pkg/baby"
 	"gitlab.com/adam.stanek/nanit/pkg/client"
 	"gitlab.com/adam.stanek/nanit/pkg/utils"
-
-	"log"
-    "net"
-    "strings"
-
 )
-
-// Get preferred outbound ip of this machine
-func GetOutboundIP() net.IP {
-    conn, err := net.Dial("udp", "8.8.8.8:80")
-    if err != nil {
-        log.Fatal(err)
-    }
-    defer conn.Close()
-
-    localAddr := conn.LocalAddr().(*net.UDPAddr)
-
-    return localAddr.IP
-}
 
 func processSensorData(babyUID string, sensorData []*client.SensorData, stateManager *baby.StateManager) {
 	// Parse sensor update
